@@ -8,36 +8,24 @@ Fetch data from the given API endpoint to create an e-commerce website, using Ty
 
 ## Function of the website
 User function:
-
-    - Log in: with correct email and password, if not there will be an message error.
-
-    - Sign up: cannot use existed email, must enter all input, password and retype password must be the same.
-
-    - Edit information: user can edit email , name , avatar , password. User must enter current password right to change the information.
+ - Log in: with correct email and password, if not there will be an message error.
+ - Sign up: cannot use existed email, must enter all input, password and retype password must be the same.
+ - Edit information: user can edit email , name , avatar , password. User must enter current password right to change the information.
 
 User (role: admin) function: 
-
-    - Like above.
-
-    - Manage product: admin can add , edit or delete product. For edit and delete , admin must know the id of the product to first find the product then edit or delete.
+ - Like above.
+ - Manage product: admin can add , edit or delete product. For edit and delete , admin must know the id of the product to first find the product then edit or delete.
 
 Product function: 
-
-    - Search by name.
-
-    - Filter by category or price or both.
+ - Search by name.
+ - Filter by category or price or both.
 
 Cart function: 
-
-    - Add item to cart by clicking on the cart Icon on the Home page or "add to cart" button on the product detail page.
-
-    - User can edit the quantity of the item in cart page.
-
-    - If the user chooses the item that had been in the cart, only the quantity of the item increases. The items in the cart will not be duplicated.
-
-    - User can delete the item from cart or clear all item. 
-
-    - The total price will up-to-date whenever the cart state change.
+ - Add item to cart by clicking on the cart Icon on the Home page or "add to cart" button on the product detail page.
+ - User can edit the quantity of the item in cart page.
+ - If the user chooses the item that had been in the cart, only the quantity of the item increases. The items in the cart will not be duplicated.
+ - User can delete the item from cart or clear all item. 
+ - The total price will up-to-date whenever the cart state change.
 
 When the user refreshes the page, the cart data and user information will not disappear.
 
